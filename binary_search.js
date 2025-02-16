@@ -1,7 +1,7 @@
 const binary_search = (list, target) => {
   // returns target index if found , else returns null
   let first = 0;
-  let last = list.length;
+  let last = list.length -1;
 
   while (first <= last) {
     let midIndex = Math.round((last + first) / 2);
