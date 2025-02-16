@@ -4,7 +4,7 @@ const binary_search = (list, target) => {
   let last = list.length -1;
 
   while (first <= last) {
-    let midIndex = Math.round((last + first) / 2);
+    let midIndex = Math.floor((last + first) / 2);
     if (list[midIndex] == target) {
       return midIndex;
     } else if (target > list[midIndex]) {
