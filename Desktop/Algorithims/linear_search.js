@@ -19,5 +19,11 @@ const verify = (result)=>{
 }
 
 const list = [1,2,3,4,5,6,7,8,9,10];
+
+// found Case --> target = 10
 const searchResult = linear_search(list , 10);
 verify(searchResult)
+
+// not found Case --> target = 15
+const searchResult2 = linear_search(list , 15);
+verify(searchResult2)
